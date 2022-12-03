@@ -45,7 +45,7 @@
                                     <td>{{ $item->quantity }}</td>
                                     <td>{{ $item->price * $item->quantity }}</td>
                                     <td>{{ $item->detail }}</td>
-                                    <td> <a href="{{url('/items/edit/'.$items->id)}}" class="btn"><input type="button" value="編集"></a></td>
+                                    <td> <a href="{{url('/items/edit/'.$item->id)}}" class="btn"><input type="button" value="編集"></a></td>
                                 </tr>
                             @endforeach
                         </tbody>
