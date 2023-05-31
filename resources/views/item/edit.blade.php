@@ -51,7 +51,7 @@
                     </div>
 
                     <div class="card-footer">
-                        <button type="submit" class="btn btn-primary" id="edit">編集</button>
+                        <button type="submit" class="btn btn-primary" id="edit">登録</button>
                     </form> 
                     <form action="{{url('/items/destroy/'.$items->id)}}" method="post" > 
                         @csrf   
